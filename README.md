@@ -1,5 +1,9 @@
 # DRFF-R1 数据集说明
 
+## 语言选择
+- [English](README.en.md)
+- [中文](README.md)
+  
 ## 一、设备介绍
 
 ### 1. 无人机与飞控器
