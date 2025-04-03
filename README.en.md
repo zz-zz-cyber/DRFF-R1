@@ -68,3 +68,33 @@ For detailed collection procedures, please refer to the code `collect.py`.
 For each `.mat` file, you can use MATLAB to plot amplitude and time-frequency graphs. The specific code can be found in `plot.py`. Just modify the following code to the actual file path:
 ```matlab
 data = load('./mini_se_4_0.mat');
+```
+Sample graphs are as follows：
+
+### Mini SE 3 
+- **I/Q Amplitude Graph and Time-Frequency Graph of data acquired under RF signal wave-absorbing cotton wrapping**
+
+![Mavic Air 2S 1 I/Q 振幅图](images/Mini_SE_3_0.png) 
+
+---
+
+### Mini SE 4
+- **I/Q Amplitude Graph and Time-Frequency Graph of data acquired under RF signal wave-absorbing cotton wrapping**
+
+![Mavic Air 2S 1 I/Q 振幅图](images/Mini_SE_4_0.png) 
+
+---
+
+### Mavic Air 2S 1
+- **I/Q Amplitude Graph and Time-Frequency Graph of data acquired under RF signal wave-absorbing cotton wrapping**
+
+![Mavic Air 2S 1 I/Q 振幅图](images/Mavic_Air2S_2_0.png)  
+
+---
+
+### Mavic Air 2S 2
+- **I/Q Amplitude Graph and Time-Frequency Graph of data acquired under RF signal wave-absorbing cotton wrapping**
+
+![Mavic Air 2S 1 I/Q 振幅图](images/Mavic_Air2S_3_0.png) 
+
+---
