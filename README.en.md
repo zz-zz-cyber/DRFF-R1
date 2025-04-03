@@ -50,11 +50,19 @@ Each `.mat` file contains:
 For detailed collection workflow, refer to `collect.py`.  
 
 ### Data Collection Strategy  
-During outdoor hovering signal collection (at 10m/30m/50m/70m/90m altitudes), the UAV radio frequency signals can produce multipath effects due to environmental reflections. To eliminate channel interference, we place the USRP receiver, a normally connected UAV, and the flight controller together under RF signal wave-absorbing cotton wrapping condition. This cotton effectively absorbs electromagnetic waves in the 5-6 GHz frequency band (reflection attenuation >30 dB). A schematic diagram is shown below: 
+During the actual signal acquisition process, we simultaneously collected RF signals from real environments and reference signals with low channel-effect interference. Specifically:
 
-![absorb](images/absorb.jpg)  
+- Control the drone to hover at different altitudes (10m/30m/50m/70m/90m) while keeping both the receiver and flight controller stationary, collecting RF signals without Doppler effects in the actual environment.
 
-Signals collected in the absorption cotton (labeled `0m`) serve as baseline data unaffected by multipath/Doppler effects. Users may simulate complex scenarios by superimposing channel models (e.g., Rayleigh fading, multipath delay) onto these baseline signals. Real-world hovering data (labeled ≥10m) can directly validate models in practical environments.  
+- To eliminate multipath effects caused by environmental reflections in real scenarios, we placed the USRP receiver, normally connected drone, and flight controller together inside microwave-absorbing foam for signal acquisition (the foam effectively absorbs electromagnetic waves in the 5-6 GHz band with reflection attenuation >30 dB).
+
+  ![absorb](images/absorb.jpg)  
+
+📌 **Tips:**  
+When using the dataset:  
+- Signals collected under microwave-absorbing foam wrapping (marked as 0m distance data files) can serve as reference signals, which are unaffected by multipath and Doppler effects.  
+- You can superimpose different channel models (e.g., Rayleigh fading, multipath delay) on this reference signal through simulation to construct training datasets for complex scenarios.  
+- RF signals from real environments (marked with distances ≥10m) can directly validate models in real-world scenarios.  
 
 ## 3. Collection Workflow  
 
