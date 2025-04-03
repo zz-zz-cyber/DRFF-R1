@@ -86,7 +86,7 @@ Two operators are required: Operator A controls the drone, Operator B manages th
 To visualize amplitude plots and spectrograms, modify the file path in `plot.py`:  
 ```matlab  
 data = load('./mini_se_3_0.mat');  
-
+```
 ### Mini SE 3 
 - **I/Q Amplitude Graph and Time-Frequency Graph of data acquired under RF signal wave-absorbing cotton wrapping**
 
