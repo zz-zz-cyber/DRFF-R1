@@ -46,6 +46,11 @@ Data collection requires two personnel: Person A operates the drone, and Person 
    - Name the file according to the rules as a data label, and after confirming no errors, run the script to enter the data collection mode. Each collection generates a signal segment containing 140 million samples. After completing one segment, rename the file and proceed to the next segment.
    - After the collection is complete, signal Person A to safely land the drone.
 
+- **The schematic diagram is as follows:**
+
+![采集示意图](images/collect.png) 
+
+---
 ## III. Dataset
 ### Dataset Naming Convention
 Taking `mini_3pro_1_0.mat` as an example:
