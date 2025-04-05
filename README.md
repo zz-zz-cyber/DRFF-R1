@@ -110,4 +110,4 @@ data = load('./mini_se_3_0.mat');
 ---
 
 ## 五、LICENSE
-本项目有Apache颁发许可证，查看[LICENSE](LICENSE)文件获取更多细节。
+本数据集由Apache颁发许可证，查看[LICENSE](LICENSE)文件获取更多细节。
