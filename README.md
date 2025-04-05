@@ -1,5 +1,8 @@
 # 🚀 DRFF-R1 数据集说明
 
+🔨   [GitHub](https://github.com/zz-zz-cyber/DRFF-R1/)     
+✨   [ModelScope](https://www.modelscope.cn/datasets/zzcyber/DRFF-R1/)
+
 ## 语言选择
 - [English](README.en.md)
 - [中文](README.md)
@@ -47,7 +50,7 @@
 - 采样频率（Fs）
 - 中心频率（CenterFreq）
 
-详细采集流程请参考代码 `collect.py`。
+详细采集流程请参考代码 [collect.py](collect.py)。
 
 ### 数据集采集方案
 
@@ -93,7 +96,7 @@
 ## 四、数据效果
 
 ### 绘制振幅图与时频图
-如果您希望查看数据振幅图与时频图，可以参考代码 `plot.m`，针对每一个 `.mat` 文件，您只需修改以下代码为实际文件路径即可：
+如果您希望查看数据振幅图与时频图，可以参考代码 [plot.m](plot.m)，针对每一个 `.mat` 文件，您只需修改以下代码为实际文件路径即可：
 ```matlab
 data = load('./mini_se_3_0.mat');
 ```
@@ -105,3 +108,6 @@ data = load('./mini_se_3_0.mat');
 ![Mavic Air 2S 1 I/Q 振幅图](images/Mini_SE_3_0.png) 
 
 ---
+
+## 五、LICENSE
+本项目有Apache颁发许可证，查看[LICENSE](LICENSE)文件获取更多细节。
