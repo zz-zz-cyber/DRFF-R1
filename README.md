@@ -2,6 +2,7 @@
 
 🔨   [GitHub](https://github.com/zz-zz-cyber/DRFF-R1/)     
 ✨   [ModelScope](https://www.modelscope.cn/datasets/zzcyber/DRFF-R1/)
+(完整数据集请前往ModelScope下载)
 
 ## 语言选择
 - [English](README.en.md)
